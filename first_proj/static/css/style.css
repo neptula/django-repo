@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(7, 131, 161);
+}
+ol{
+    border: 3px solid rgb(153, 165, 42);
+    font-style: italic;
+    color: rgb(218, 134, 25);
+    font-size: x-large;
+}
+li{
+    color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
