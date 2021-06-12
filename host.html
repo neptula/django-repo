@@ -1,0 +1,14 @@
+<h1>Help Page!!</h1>
+<div class="dj">
+    {% if access_records %}
+    {% for i in access_records %}
+    <ol>User_Info:
+        <li>{{i.first_name}}</li>
+        <li>{{i.last_name}}</li>
+        <li>{{i.email}}</li>
+    </ol>
+    {% endfor %}
+    {% else %}
+    <p>No records found!!!</p>
+    {% endif %}
+</div>
